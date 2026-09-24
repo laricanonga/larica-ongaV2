@@ -100,7 +100,7 @@ def editar_paciente()->None:
             print("Nombre actualizado")
         elif op==2:
             edad_nueva=leer_numero("Ingrese nueva edad: ")
-            paciente.edad=edadf_nueva
+            paciente.edad=edad_nueva
             print("Edad actualizada")
         elif op==3:
             print("Tipos de prevision: ")
